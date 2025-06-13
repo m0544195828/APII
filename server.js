@@ -3,7 +3,7 @@ import multer from 'multer';
 import fs from 'fs';
 import path from 'path';
 import OpenAI from 'openai';
-import { gTTS } from 'gtts';
+import  gTTS  from 'gtts';
 
 const app = express();
 const upload = multer({ dest: 'uploads/' });
